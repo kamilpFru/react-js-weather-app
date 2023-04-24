@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+body {
+  margin: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  font-family: 'Castoro Titling', cursive;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: 50;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.search {
+  display: inline-block
+}
+
+button {
+  background-color: aliceblue;
+  border: none;
+  /* text-decoration: none; */
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-left: none;
+  border-top-right-radius: 8px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: rgb(193, 223, 250);
+  transition: 0.7s;
+}
+
+input {
+  /* width: 378px; */
+  width: 306.3px;
+  padding: 10px;
+  border: 1px solid black;
+  border-top-left-radius: 8px;
+  border-right: none;
+  /* border-top-right-radius: 8px; */
+  text-align: center;
+  font-size: medium;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 150px;
+
+}
+
+.card {
+  /* background-color: aliceblue; */
+  background: url('src/assets/sky-dark-light-clouds.jpg') no-repeat center center/cover;
+  height: 600px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  border-radius: 8px;
+  border-start-start-radius: 0px;
+  border-top-right-radius: 0px;
+  border: 1px solid black;
+  border-top: 0px;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.desc {
+  position: relative;
+  top: 30px;
+  font-size: 5rem;
+}
+
+.bottom {
+  background-color: rgba(240, 248, 255, 0.301);
+  border-radius: 3px;
+  color: black;
+  padding: 2px;
+  font-size: 1rem;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-evenly;
+  position: relative;
+  top: 20px;
+}
+
